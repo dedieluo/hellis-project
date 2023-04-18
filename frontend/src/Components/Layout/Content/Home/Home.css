@@ -1,6 +1,25 @@
 .Home {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     height: 100%;
-	width: 100%
+    width: 100%;
+    gap: 20px;
+}
+
+.Home .main-picturs {
+    /* gap: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .main-picturs img {
+    width: 700px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.Home .main-picturs img:hover {
+    transform: scale(1.0);
 }

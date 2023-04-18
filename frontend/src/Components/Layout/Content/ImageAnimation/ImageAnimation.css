@@ -1,4 +1,10 @@
-.ImageAnimation {}
+.ImageAnimation {
+      /* background-size: cover;
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    animation: 0s ease 0s 1 normal none running none; */
+}
 
 .image-animation-container {
   position: relative;
