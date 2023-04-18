@@ -7,7 +7,6 @@ function Layout(): JSX.Element {
     return (
         <div className="Layout">
             <Header />
-            <Navigate />
             <Content />
         </div>
     );
